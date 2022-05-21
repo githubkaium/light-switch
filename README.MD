@@ -8,6 +8,6 @@
 
 ---
 
-[Live Webpage](https://mellow-pixie-83e981.netlify.app/ "Toggle Light ON/OFF")
+[Live Webpage](https://toggle-light-on-off.netlify.app/ "Toggle Light ON/OFF")
 
 ---
