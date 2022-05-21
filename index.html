@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Light ON/OFF</title>
+    <style>
+      p {text-align: center; font-size: xx-large; font-weight: 800;}
+      img {display: block; margin: auto;}
+    </style>
+</head>
+<body>
+  <p>Turn the light on and off<br> by clicking the bulb!</p>
+  <img id="BulbImage" onclick="toggle()" src="https://i.ibb.co/t4w3PZH/OFFbulb.png">
+  <script>
+   function toggle(){
+   var image = document.getElementById('BulbImage');
+   if (image.src.match("ONbulb")){
+       image.src = "https://i.ibb.co/t4w3PZH/OFFbulb.png";
+   }
+   else{
+       image.src = "https://i.ibb.co/yWkgDkV/ONbulb.png";
+  }
+}
+  </script>
+</body>
+</html>
